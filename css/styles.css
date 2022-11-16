@@ -97,6 +97,12 @@ button {
   background-color: #76CE82;
 }
 
+.letter,
+.space,
+.show {
+  margin-top: 1rem;
+}
+
 /* Keyboard */
 
 .keyrow {
@@ -117,6 +123,7 @@ button {
   background: #FFFFFF;
   border-radius: 5px;
   font-size: var(--font-size-medium);
+  cursor: pointer;
 }
 
 /* Overlay */
