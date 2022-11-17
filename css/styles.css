@@ -86,6 +86,7 @@ button {
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
+  transition: background-color .5s ease, color .5s ease;
 }
 
 .space {
@@ -104,6 +105,10 @@ button {
 }
 
 /* Keyboard */
+
+button {
+  cursor: pointer;
+}
 
 .keyrow {
   display: flex;
